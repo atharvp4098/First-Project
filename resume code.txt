@@ -1,0 +1,107 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[left=0.7in,right=0.7in,top=0.7in,bottom=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=2pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+%======================
+% Header
+%======================
+\begin{center}
+    {\LARGE \textbf{Atharv Patil}} \\[6pt]
+    Sake, Kolhapur, Maharashtra, India \\
+    Date of Birth: 6 May 2007 \\
+    \href{mailto:atharvp4098@gmail.com}{atharvp4098@gmail.com} \;|\;
+    [Your Phone Number] \;|\;
+    \href{[Your LinkedIn URL]}{LinkedIn} \;|\;
+    \href{[Your GitHub URL]}{GitHub}
+\end{center}
+
+\vspace{6pt}
+
+%======================
+\section*{Career Objective}
+Disciplined and motivated First Year B.Tech Computer Science student from DYPCET, Kasba Bavda with strong interest in programming and government competitive examinations. Currently learning Python and maintaining daily coding practice on GitHub. Seeking opportunities to strengthen technical knowledge and build a strong professional foundation.
+
+%======================
+\section*{Education}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{B.Tech in Computer Science and Engineering (FY)} & \textbf{2024 -- 2028 (Expected)} \\
+Dr. D. Y. Patil College of Engineering \& Technology (DYPCET), Kasba Bavda, Kolhapur & \\
+\textit{Savitribai Phule Pune University} & \\
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{\textwidth}{X r}
+\textbf{Higher Secondary Education (HSC)} & \textbf{Completed} \\
+MHSK, Kolhapur & \\
+Percentage: \textbf{60\%} & \\
+\end{tabularx}
+
+%======================
+\section*{Technical Skills}
+
+\begin{itemize}
+    \item Python Programming
+    \item Basic C Programming
+    \item Git \& GitHub
+    \item VS Code
+    \item Logical Problem Solving
+    \item Computer Fundamentals
+\end{itemize}
+
+%======================
+\section*{Projects}
+
+\textbf{Daily Python Practice Programs} \\
+Maintaining consistent GitHub streak by uploading logic-building and problem-solving programs regularly.
+
+\vspace{4pt}
+
+\textbf{Logic Building Programs} \\
+Implemented programs using loops, conditional statements, and boolean operations to strengthen core programming fundamentals.
+
+%======================
+\section*{Competitive Exam Preparation}
+
+\begin{itemize}
+    \item RBI Office Attendant
+    \item SSC Examinations
+    \item Other Government Competitive Exams
+\end{itemize}
+
+%======================
+\section*{Strengths}
+
+\begin{itemize}
+    \item Consistency and Discipline
+    \item Strong Logical Thinking
+    \item Quick Learner
+    \item Self-Motivated
+\end{itemize}
+
+%======================
+\section*{Languages}
+
+Marathi (Native), Hindi, English
+
+%======================
+\section*{Hobbies}
+
+Coding Practice, Learning Technology, Competitive Exam Study
+
+\end{document}
